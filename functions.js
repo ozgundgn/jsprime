@@ -43,7 +43,6 @@ function friends(x,y){
 //Perfect numbers from 1 to 1000
 
 function perfectNumbers(){
-
 let perfectNumbers=[];
 for (let u = 1; u <= 1000; u++) {
     let toplam=0;
@@ -78,7 +77,6 @@ let primes=[];
 
 // Find prime function
 function findPrime(number){
-
     let result=false;
     if(number>0){
         let dividingNumber=Math.sqrt(number)+1;
